@@ -54,6 +54,10 @@ class RequestApi
 				curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
 				break;
 		}
+		if(preg_match("/^https/", self::$url)){
+		    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+		}
 		curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 10);
 		curl_setopt($curl, CURLOPT_TIMEOUT, self::$timeout);
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
