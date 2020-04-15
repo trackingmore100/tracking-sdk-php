@@ -15,7 +15,7 @@ class Api
 	public static $apiBaseUrl = "api.trackingmore.com";
 	
 	# @var string The port to be used for requests.
-	public static $apiPort = 80;
+	public static $apiPort = 443;
 	
 	# @var string The version to be used for requests.
 	public static $apiVersion = "v2";
