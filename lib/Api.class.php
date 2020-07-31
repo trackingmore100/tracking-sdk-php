@@ -128,7 +128,7 @@ class Api
 	/**
 	* Check if the data meets the requirements.
 	*
-	* @return json response.
+	* @return string response.
 	*/
 	public static function checkSendApi($data)
 	{
@@ -162,7 +162,7 @@ class Api
 	/**
 	* send api request.
 	*
-	* @return array $response.
+	* @return string $response.
 	*/
 	public static function sendApiRequest($params = [], $method = "GET")
 	{
@@ -175,7 +175,7 @@ class Api
 	/**
 	* error params request.
 	*
-	* @return json response.
+	* @return string response.
 	*/
 	public static function errorResponse($code, $message = "", $data = [])
 	{

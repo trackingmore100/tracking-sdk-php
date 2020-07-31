@@ -23,7 +23,7 @@ class RequestApi
 	/**
 	* send api request.
 	*
-	* @return json $response.
+	* @return string $response.
 	*/
 	public static function send($method = "GET")
 	{
@@ -72,7 +72,7 @@ class RequestApi
 		$response = curl_exec($curl);
 		curl_close($curl);
 		unset($curl); 
-		return $response;
+		return (string)$response;
 	}
 	
 }
