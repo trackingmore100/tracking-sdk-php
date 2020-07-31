@@ -9,7 +9,8 @@
   "description": "Tracking PHP SDK",
   "license": "MIT",
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "ext-json": "*"
   },
   "autoload": {
     "classmap": [
