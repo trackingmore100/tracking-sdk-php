@@ -21,7 +21,6 @@ $api = new Api('you api key');
 
 Quick Start
 --------------
-- When sandbox and lang are included in your parameters, it will be automatically added to the parameters. If sandbox is true, your request will not require the correct APIKEY, but the results returned by each interface will be fixed
 - Put your ApiKey in the constructor of the Api class
 - All returns are in Json format.
 - After instantiating the Api class, you can use its interface methods
