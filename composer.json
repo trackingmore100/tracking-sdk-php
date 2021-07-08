@@ -1,0 +1,19 @@
+{
+  "name": "trackingmore100/tracking-sdk-php",
+  "authors": [
+    {
+      "name": "www.trackingmore.com",
+      "email": "info@trackingmore.org"
+    }
+  ],
+  "description": "Tracking PHP SDK",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/"
+    ]
+  }
+}
